@@ -15,6 +15,8 @@
 		CB73F8BA1FE6D0B1009F58CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB73F8B81FE6D0B1009F58CF /* LaunchScreen.storyboard */; };
 		CB73F8C51FE6D0B1009F58CF /* MyPhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73F8C41FE6D0B1009F58CF /* MyPhotoAppTests.swift */; };
 		CB73F8D01FE6D0B1009F58CF /* MyPhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73F8CF1FE6D0B1009F58CF /* MyPhotoAppUITests.swift */; };
+		CB73F8E01FE6DC59009F58CF /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73F8DF1FE6DC59009F58CF /* myCell.swift */; };
+		CB73F8E21FE704CF009F58CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73F8E11FE704CF009F58CF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CB73F8CB1FE6D0B1009F58CF /* MyPhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB73F8CF1FE6D0B1009F58CF /* MyPhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotoAppUITests.swift; sourceTree = "<group>"; };
 		CB73F8D11FE6D0B1009F58CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB73F8DF1FE6DC59009F58CF /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = myCell.swift; path = ../myCell.swift; sourceTree = "<group>"; };
+		CB73F8E11FE704CF009F58CF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				CB73F8AC1FE6D0B1009F58CF /* AppDelegate.swift */,
 				CB73F8AE1FE6D0B1009F58CF /* ViewController.swift */,
+				CB73F8E11FE704CF009F58CF /* DetailViewController.swift */,
 				CB73F8B01FE6D0B1009F58CF /* Main.storyboard */,
+				CB73F8DF1FE6DC59009F58CF /* myCell.swift */,
 				CB73F8B61FE6D0B1009F58CF /* Assets.xcassets */,
 				CB73F8B81FE6D0B1009F58CF /* LaunchScreen.storyboard */,
 				CB73F8BB1FE6D0B1009F58CF /* Info.plist */,
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB73F8AF1FE6D0B1009F58CF /* ViewController.swift in Sources */,
+				CB73F8E01FE6DC59009F58CF /* myCell.swift in Sources */,
+				CB73F8E21FE704CF009F58CF /* DetailViewController.swift in Sources */,
 				CB73F8AD1FE6D0B1009F58CF /* AppDelegate.swift in Sources */,
 				CB73F8B51FE6D0B1009F58CF /* MyPhotoApp.xcdatamodeld in Sources */,
 			);
